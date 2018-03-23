@@ -57,6 +57,7 @@ public class LinkedListQueue {
         Node current=head;
         while(current!=null){
             System.out.println(current.item);
+            current=current.next;
         }
     }
 

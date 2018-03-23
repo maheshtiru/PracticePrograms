@@ -19,5 +19,8 @@ public class Main {
                 System.out.println("inserted in queue: " +s);
             }
         }
+
+        System.out.println("Items in the stack: ");
+        llQueue.displayQueue();
     }
 }
