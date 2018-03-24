@@ -12,6 +12,7 @@ public class Main {
         shellSort();
         mergeSort();
         quickSort();
+        quickSelect();
     }
 
     //selection sort
@@ -81,6 +82,20 @@ public class Main {
 
         quickSortInt.sort(strArray);
         displayData(strArray);
+    }
+
+    //quick select..select kth smallest element in unordered list
+    private static void quickSelect(){
+        System.out.println("*****Quick Select*****");
+
+        String[] strArray= {"bbc","zxy","dsd","fef","uyu","ewe","hek","zit","hwk"};
+        Integer[] intArray= {3,5,1,4,2,8,7,9,6};//all numbers from 1 to 9
+
+        int k=-1;
+        QuickSelect<Integer> quickSelect = new QuickSelect<>();
+
+        System.out.println(k+"th/rd smallest element(starting from 0th): "+quickSelect.select(intArray,k));
+        //displayData(strArray);
     }
     //display method
     private static  void displayData(Comparable[] arr){
