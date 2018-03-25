@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         String[] str = {"a","-","b","c","d","e","-","-","z"};
         linkedListQueue(str);
+        unorderedPriorityQueue();
     }
 
     private static void linkedListQueue(String[] str){
@@ -22,5 +23,17 @@ public class Main {
 
         System.out.println("Items in the stack: ");
         llQueue.displayQueue();
+    }
+
+    private static void unorderedPriorityQueue(){
+        System.out.println("****unordered priority queue****");
+        int capacity=10;
+        UnorderedPriorityQueue<Integer> pq = new UnorderedPriorityQueue(capacity);
+
+        pq.insert(3);
+        pq.insert(4);
+        pq.insert(1);
+
+        System.out.println("remove from U/O max priority queue: " +pq.deleteMax() );
     }
 }
