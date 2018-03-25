@@ -12,6 +12,7 @@ public class Main {
         quickSort();
         quickSelect();
         threeWaySort();
+        //see com.Heap package for heap sort
     }
 
     //selection sort
