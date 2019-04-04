@@ -8,7 +8,7 @@ import com.sun.org.apache.xpath.internal.SourceTree;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import org.apache.commons.lang3.time.StopWatch;
+//import org.apache.commons.lang3.time.StopWatch;
 
 public class BinarySearch {
 
@@ -21,18 +21,19 @@ public class BinarySearch {
         }catch(Exception e){
             System.out.println("broke down while reading input");
         }
-        StopWatch stopwatch = new StopWatch();
-        stopwatch.start();
-        System.out.println(N+" is found at index: "+bSearch(arr,N));       //binary search call
-        stopwatch.stop();
-        double time1 = stopwatch.getNanoTime();
-        System.out.println("time bsearch: "+time1);
-
-        stopwatch.reset();
-        stopwatch.start();
-        System.out.println(N+"linear/ is found at index: "+linearSearch(arr,N));       //linear search call
-        stopwatch.stop();
-        System.out.println("time linear: "+stopwatch.getNanoTime());
+        System.out.println(bSearch(arr,N));
+//        StopWatch stopwatch = new StopWatch();
+//        stopwatch.start();
+//        System.out.println(N+" is found at index: "+bSearch(arr,N));       //binary search call
+//        stopwatch.stop();
+//        double time1 = stopwatch.getNanoTime();
+//        System.out.println("time bsearch: "+time1);
+//
+//        stopwatch.reset();
+//        stopwatch.start();
+//        System.out.println(N+"linear/ is found at index: "+linearSearch(arr,N));       //linear search call
+//        stopwatch.stop();
+//        System.out.println("time linear: "+stopwatch.getNanoTime());
 
     }
     //Binary search starts
