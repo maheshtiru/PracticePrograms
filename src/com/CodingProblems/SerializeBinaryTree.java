@@ -135,7 +135,7 @@ class SerializeTree {
                 TreeNode right = null;
 
                 int a = 2*k;
-                int b = a + 1;
+                int b = 2*k + 1;
 
                 if(a < arr.length && arr[a] != null && !arr[a].equals("N"))     //N in the string means null value
                     left = new TreeNode(Integer.parseInt(arr[a]));
