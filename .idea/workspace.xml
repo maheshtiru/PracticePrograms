@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="631d408c-b336-4d12-b4e6-9ae69ab45959" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/CodingProblems/KdistinctChars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/CodingProblems/KdistinctChars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/LinkedList/LinkedList$Iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/LinkedList/LinkedList$Iterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/LinkedList/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/LinkedList/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/LinkedList/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Queue/LinkedListQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Queue/LinkedListQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/CodingProblems/KdistinctChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/CodingProblems/KdistinctChars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/CodingProblems/TrieImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/CodingProblems/TrieImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/LinkedList/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Queue/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Queue/LinkedListQueue.java" afterDir="false" />
-    </list>
+    <list default="true" id="631d408c-b336-4d12-b4e6-9ae69ab45959" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,35 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/CodingProblems/demo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/CoreJavaPrograms/Streams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/CoreJavaPrograms/StreamTutorialCopy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-939">
-              <caret line="149" selection-start-line="149" selection-end-line="149" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -316,7 +281,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/PracticePrograms/src/com/LinkedList/LinkedList.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1660605929403" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1660606072490" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -456,9 +421,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-100" y="-1080" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17039403" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17039403" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -467,14 +431,14 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49791667" visible="true" weight="0.26545087" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49791667" weight="0.26545087" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4981685" weight="0.47720364" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50183153" side_tool="true" weight="0.36632654" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32928064" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3272543" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32930845" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -933,10 +897,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CodingProblems/demo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/CoreJavaPrograms/Streams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="68">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -950,13 +917,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CoreJavaPrograms/Streams.java">
+    <entry file="file://$PROJECT_DIR$/src/com/CodingProblems/demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
