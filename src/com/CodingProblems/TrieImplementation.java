@@ -9,7 +9,7 @@ import java.util.*;
 public class TrieImplementation {
     public static void main(String[] args){
         List<String> list = Arrays.asList("dog", "deer", "deal","daces", "dacha", "daddy", "dabbed", "dabber", "dabble"
-                                    ,"daredeviltry", "darmstadtium", "daughter", "demon", "lemon");
+                ,"daredeviltry", "darmstadtium", "daughter", "demon", "lemon");
         String prefix = "dab";
 
         Trie autoComplete = new Trie();

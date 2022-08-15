@@ -1,18 +1,21 @@
 package com.LinkedList;
 
-import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 public class LinkedList<T> implements Iterable<T> {
 
-    private Node<T> head=null;
-    private Node<T> tail=null;
+    private LinkedListNode<T> head=null;
+    private LinkedListNode<T> tail=null;
 
-    //Linked list Node implementation
-    private class Node<T>{
-        Comparable<T> value;
-        Node<T> next = null;
+    public LinkedListNode<T> getHead(){
+        System.out.println();
+        return head;
     }
+
+    public LinkedListNode<T> getTail(){
+        return tail;
+    }
+
     //check if two values are equal
     private boolean checkEquals(Comparable<T> x, Comparable<T> y){
         return x.compareTo((T) y) == 0;
@@ -24,7 +27,7 @@ public class LinkedList<T> implements Iterable<T> {
     //add element from front
     public void addToFront(Comparable<T> val){
         //create a node and link it in the front i.e, make it head
-        Node<T> node = new Node<T>();
+        LinkedListNode<T> node = new LinkedListNode<T>();
         node.value=val;
 
         if(isEmpty()){                          //list empty,head and tail points to the only element
@@ -40,7 +43,7 @@ public class LinkedList<T> implements Iterable<T> {
     public void addToBack(Comparable<T> val){
 
         //create a new node and make it tail
-        Node<T> node = new Node<T>();
+        LinkedListNode<T> node = new LinkedListNode<T>();
         node.value=val;
 
         if(isEmpty()){                  //edge case for empty list
@@ -68,7 +71,7 @@ public class LinkedList<T> implements Iterable<T> {
             return;
         }
 
-        Node<T> current = head;
+        LinkedListNode<T> current = head;
         for(int i=0;i<index-1;i++) {    //traverse to the element before the index and attach the new node
             if(current.next!=null)      //using current.next because we are traversing only till index-1
                 current = current.next;
@@ -76,7 +79,7 @@ public class LinkedList<T> implements Iterable<T> {
                 throw new IndexOutOfBoundsException();
         }//end of for
 
-        Node<T> node = new Node<T>();   //node for new element
+        LinkedListNode<T> node = new LinkedListNode<T>();   //node for new element
         node.value=val;
 
         if(current.next==null) {        //implies element before index(current) is tail, so adding at last
@@ -92,7 +95,7 @@ public class LinkedList<T> implements Iterable<T> {
     public boolean contains(Comparable<T> val){
         if(isEmpty())return false;          // edge case
 
-        Node current=head;
+        LinkedListNode current=head;
         while(current!=null){
             if(checkEquals(current.value,val))
                 return true;
@@ -101,12 +104,25 @@ public class LinkedList<T> implements Iterable<T> {
         return false;
     }
 
+    //return the first node with the given input value
+    public LinkedListNode getNodeByValue (Comparable<T> val){
+        if(isEmpty())return null;          // edge case
+
+        LinkedListNode current=head;
+        while(current!=null){
+            if(checkEquals(current.value,val))
+                return current;
+            current=current.next;
+        }
+        return null;
+    }
+
     public Comparable<T> getByIndex(int index){
 
         if(isEmpty() || index<0) throw new IndexOutOfBoundsException();
 
         Comparable<T> val = null;
-        Node current=head;
+        LinkedListNode current=head;
 
         for(int i=0; i<=index; i++){                                     //traverse till the index
             if(current==null) throw new IndexOutOfBoundsException();     //index too big
@@ -134,7 +150,7 @@ public class LinkedList<T> implements Iterable<T> {
             return;
         }
 
-        Node current=head;
+        LinkedListNode current=head;
         while(current.next.next!=null)          //traverse till last before element
             current=current.next;
         current.next=null;
@@ -148,7 +164,7 @@ public class LinkedList<T> implements Iterable<T> {
             return;
         }
 
-        Node current=head;
+        LinkedListNode current=head;
         for(int i=0; i<index-1 ; i++ ){         // traverse till the element preceding target element
             current=current.next;
             if(current.next==null) throw new IndexOutOfBoundsException();   //index too big i.e, previous index element is tail
@@ -163,7 +179,7 @@ public class LinkedList<T> implements Iterable<T> {
     }
 
     private class Iterator<T> implements java.util.Iterator<T>{
-        Node current=head;
+        LinkedListNode current=head;
         @Override
         public boolean hasNext() {
             return current!=null;

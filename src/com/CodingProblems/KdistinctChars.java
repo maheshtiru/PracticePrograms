@@ -11,6 +11,7 @@ public class KdistinctChars {
         int k = 16;
         String sol = solution(input, k);
         System.out.println("longest substring of "+input+" with "+k+" distinct chars is: " +sol +" ,length: " +sol.length());
+
     }
 
     private static String solution(String input, int limit){

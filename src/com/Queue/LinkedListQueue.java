@@ -34,8 +34,6 @@ public class LinkedListQueue {
         }
         tail.next=node;       // attach new element to end of the list
         tail=node;            //point tail to the new node
-
-
     }
 
     public String dequeue(){
