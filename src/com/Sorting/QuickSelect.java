@@ -21,7 +21,7 @@ public class QuickSelect<T> {
         KnuthShuffle<T> knuth = new KnuthShuffle<>();               //shuffle class instance
         //shuffle and quick select the array
         knuth.shuffle(array);
-        return quickSelect(array, lo, hi, k);
+        return quickSelect(array, lo, hi, k-1);                 //pass k-1 for kth smallest because array is not 1 based
     }
 
     private boolean less(Comparable<T> x, Comparable<T> y) {
@@ -48,6 +48,7 @@ public class QuickSelect<T> {
         return array[k];
     }
 
+    //same as quick sort partition, place pi in correct place
     private int partition(Comparable<T>[] array, int lo, int hi) {
 
         int pi = lo;

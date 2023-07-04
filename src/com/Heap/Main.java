@@ -25,13 +25,13 @@ public class Main {
     private static void heapSort(){
         System.out.println("\n"+"\n"+"****Heap Sort****");
 
-        //Integer[] arr = {1,2,0,4,5,15,8,7,6,3};
-        String[] arr = {"z","a","x","c","v","b"};
+        Integer[] arr = {1,2,0,4,5,15,6,7,8};
+//        String[] arr = {"z","a","x","c","v","b"};
 
         System.out.print("before: ");
         display(arr);
 
-        HeapSort<String> heapSort = new HeapSort<>();
+        HeapSort<Integer> heapSort = new HeapSort<>();
         heapSort.sort(arr);
 
         System.out.print("\n"+"after: ");

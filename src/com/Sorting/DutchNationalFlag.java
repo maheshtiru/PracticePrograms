@@ -1,4 +1,7 @@
 package com.Sorting;
+
+import java.util.Comparator;
+
 /*
 *****3-WAY partition sorting*****
 * Goal: place same keys together as groups...
@@ -22,7 +25,7 @@ package com.Sorting;
 *   -So we just need to recurse only on elements before lt and after gt.
 *   $$$--This way of recursion allows grouping even if there are MORE THAN 3 GROUPS---$$$
 */
-public class DutchNationalFlag<T> {
+public class  DutchNationalFlag<T> {
 
     public void sort(Comparable<T>[] array){
         int lo=0,hi=array.length-1;
@@ -43,7 +46,16 @@ public class DutchNationalFlag<T> {
         if(hi<=lo)return;                         //base case
 
         int lt=lo, gt=hi, i=lo;
-        Comparable<T> C=array[lo];               //choose element to compare
+
+        Comparable<T> min, mid, max;
+        min = mid = max = array[lo];
+        for(int j = 0; j <= hi; j++) {
+            if(compareElements(array[j], min) <= 0) min = array[j];
+            else if(compareElements(array[j], max) >= 0) max = array[j];
+            else mid = array[j];
+        }
+
+        Comparable<T> C = mid;               //If you choose random compare element, uncomment recursive calls at end of this method. It turns into sorting
 
         while(i<=gt) {
             if(compareElements(array[i],C)<0)
@@ -54,8 +66,9 @@ public class DutchNationalFlag<T> {
                 i++;
         }
 
-        //$$$--This way of recursion allows grouping even if there are MORE THAN 3 GROUPS---$$$
-        threeWaySort(array,lo,lt-1);                    //recurse on left side of 'C(element chosen for comparision)' group
-        threeWaySort(array,gt+1,hi);                    //recurse on right side of 'C' group
+        // This(is Sorting) way of recursion allows grouping even if there are more than 3 colors and a random compare element
+        // It works by putting compare element's group in correct place in every recursive call, similar to quick sort
+//        threeWaySort(array,lo,lt-1);                    //recurse on left side of 'C(element chosen for comparision)' group
+//        threeWaySort(array,gt+1,hi);                    //recurse on right side of 'C' group
     }
 }

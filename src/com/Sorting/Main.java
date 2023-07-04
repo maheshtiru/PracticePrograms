@@ -98,14 +98,15 @@ public class Main {
         System.out.println("\n"+"\n"+"*****Quick Select*****");
 
         String[] strArray= {"bbc","zxy","dsd","fef","uyu","ewe","hek","zit","hwk"};
-        Integer[] intArray= {3,5,1,4,2,8,7,9,6};//all numbers from 1 to 9
+//        Integer[] intArray= {3,5,1,4,2,8,7,9,6};//all numbers from 1 to 9
+        Integer[] intArray= {65,34,98,56,24,96,74,1,51,84,62,75,21,88,56,1,4,315,31,421,512,512,12,57,2,64};
         printDataBeforeOperation(intArray);
 
-        int k=3;
+        int k=5;
         QuickSelect<Integer> quickSelect = new QuickSelect<>();
 
-        System.out.println(k+"th/rd smallest element(starting from 0th): "+quickSelect.select(intArray,k));
-        //displayData(strArray);
+        System.out.println(k+"th/rd smallest element: "+quickSelect.select(intArray,k));
+        displayData(intArray);
     }
 
     //three way sort
@@ -113,7 +114,9 @@ public class Main {
         System.out.println("\n"+"*****3-way sort*****");
 
         //String[] strArray= {"bbc","zxy","dsd","fef","uyu","ewe","hek","zit","hwk"};
-        Integer[] intArray= {9,4,5,6,9,4,4,9,9,4,7,4,6,5,5,5,6,6,7,7};
+//        Integer[] intArray= {4,4,5,6,9,4,4,9,9,4,7,4,6,5,5,5,6,6,7,7};
+        Integer[] intArray= {2,0,1,0,2,2,1,0};
+//        Integer[] intArray= {3,5,1,4,2,8,7,9,6};//all numbers from 1 to 9
         printDataBeforeOperation(intArray);
 
         DutchNationalFlag<Integer> dutchNationalFlag = new DutchNationalFlag<>();

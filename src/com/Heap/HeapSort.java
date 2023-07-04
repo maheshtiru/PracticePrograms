@@ -59,6 +59,9 @@ public class HeapSort<T extends Comparable<T>> {
         for(int k = (N)/2 ; k>=0; k--) {              //start at first parent from bottom
             sink(array,k);
         }
+        for(int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
     }
 
     //heapSort() sorts the heap ordered array. See "Working" section in header comments
