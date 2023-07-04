@@ -18,7 +18,7 @@ public class Main {
         graphNodes.printGraph();
 
 
-        System.out.println("------- topological sort --------");
+        System.out.println("------- dfs topological sort --------");
         topologicalSort();
     }
 
@@ -77,8 +77,8 @@ public class Main {
 
     public static void topologicalSort() {
         GraphNodes graph =  new GraphNodes();
-        List<GraphNodes.Node> noDependencyNodes = buildDirectedGraph(graph);
-        BasicTopologicalSort bts = new BasicTopologicalSort(noDependencyNodes);
+        buildDirectedGraph(graph);
+        TopologicalSort bts = new TopologicalSort(graph);
         List<GraphNodes.Node> topologicalOrderList =  bts.getTopologicalOrder();
 
         System.out.println("\ntopological order: \n");
@@ -88,7 +88,7 @@ public class Main {
     }
 
     //returns a node list which has no dependencies
-    private static List<GraphNodes.Node> buildDirectedGraph(GraphNodes graph) {
+    private static void buildDirectedGraph(GraphNodes graph) {
         GraphNodes.Node nodeCN = graph.addVertex("Computer Networks");
         GraphNodes.Node nodeDS = graph.addVertex("Data Structures");
         GraphNodes.Node nodeAlgo = graph.addVertex("Algorithms");
@@ -96,8 +96,6 @@ public class Main {
         GraphNodes.Node nodeOS = graph.addVertex("Operating Systems");
         GraphNodes.Node nodeSE = graph.addVertex("Software Engineering");
         GraphNodes.Node nodeAI = graph.addVertex("Artificial Intelligence");
-
-
 
         // pre-req's for algo class
         graph.addDirectedEdges(nodeDS, nodeAlgo);  // DS(source) -> Algo(dest)
@@ -111,6 +109,7 @@ public class Main {
 
         // pre-req's for SE class
         graph.addDirectedEdges(nodeAlgo, nodeSE);
+        graph.addDirectedEdges(nodeDB, nodeSE);
 
         // pre-req's for AI class
         graph.addDirectedEdges(nodeDB, nodeAI);
@@ -118,9 +117,6 @@ public class Main {
 
         System.out.println("-- Node: "+"comma seperated list for which this node is a dependency --");
         graph.printGraph();
-
-        List<GraphNodes.Node> noDependencyNodes = Arrays.asList(nodeDS, nodeDB);
-        return noDependencyNodes;
 
         //    List of different classes available (classList):
         //        Data Structures
@@ -137,7 +133,7 @@ public class Main {
         //        Database Systems: None
         //        Operating Systems: Data Structures, Algorithms
         //        Computer Networks: Data Structures
-        //        Software Engineering: Algorithms
+        //        Software Engineering: Algorithms, Database Systems
         //        Artificial Intelligence: Algorithms, Database Systems
     }
 }
