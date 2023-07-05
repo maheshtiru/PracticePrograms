@@ -3,7 +3,7 @@ package com.Graphs;
 import java.util.*;
 
 
-// Note: nodes starting with Indegree 0 have 0 incoming connections i.e, no dependencies
+// Note: nodes starting with Indegree 0 have 0 incoming connections/edges i.e, no dependencies
 public class TopologicalSort {
     GraphNodes graph;
 
@@ -68,7 +68,8 @@ public class TopologicalSort {
         }
     }
 
-    // start trigger this routine on all indegree 0 nodes. Once a node's all neighbours are processed add node to topological sort dfsAnswerStack
+    // start trigger this routine on all indegree 0 nodes. Once a node's all neighbours are processed add node to topological sort "STACK"
+    // pop stack one by one to answer list
     private void dfsHelper(GraphNodes.Node node) {
         if(node == null || visited.contains(node)) return;
 
@@ -93,8 +94,8 @@ public class TopologicalSort {
     }
 
     // kahn's algorithm : put all indegree 0 nodes in topological dfsAnswerStack. indegree = no. of incoming connections
+    // process each node. update indegree of neighbors and add any new nodes with indegree == 0 to the queue and repeat
     private List<GraphNodes.Node> bfsHelper() {
-        visited.clear();
         Queue<GraphNodes.Node> q = new LinkedList<>();
         for(GraphNodes.Node gn :  noDependencyNodesList) //add all indegree 0 nodes
             q.add(gn);
@@ -104,15 +105,14 @@ public class TopologicalSort {
 
             if(visited.contains(node)) continue;
 
-            if(inDegreeMap.get(node) == 0) {
-                visited.add(node);
-                bfsAnswerList.add(node);
-            }
+            visited.add(node);
+            bfsAnswerList.add(node);
 
             for(GraphNodes.Node n : node.adjList) {
-                q.add(n);
                 int indegree = inDegreeMap.get(n);
-                inDegreeMap.put(n, indegree-1);
+                inDegreeMap.put(n, --indegree);
+               if(indegree == 0) // add neighbors with indegree 0 to queue
+                   q.add(n);
             }
         }
 
