@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0c003a8-7f3d-4538-ad20-9113b37f71eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Graphs/DetectCycleDirectedGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Graphs/DetectCycleUndirectedGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Search/BinarySearchVariations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/TopologicalSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/TopologicalSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Graphs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Graphs/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/TopologicalSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/CodingProblems/demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/CodingProblems/demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/DetectCycleDirectedGraph$BFScycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/DetectCycleDirectedGraph$BFScycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/DetectCycleDirectedGraph$Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/DetectCycleDirectedGraph$Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Search/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/CodingProblems/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/CodingProblems/demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Graphs/DetectCycleDirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/DetectCycleDirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Search/BinarySearch.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,25 +22,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Graphs/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Sorting/DutchNationalFlag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="515">
+              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/Graphs/DetectCycleUndirectedGraph.java">
+        <entry file="file://$PROJECT_DIR$/src/com/Search/BinarySearchVariations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+            <state relative-caret-position="1598">
+              <caret line="94" column="45" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#1816#1817#0" expanded="true" />
-                <element signature="e#1853#1854#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Graphs/DetectCycleUndirectedGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,20 +57,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Graphs/DetectCycleDirectedGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="1462">
+              <caret line="86" column="46" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
               <folding>
-                <element signature="e#5162#5163#0" expanded="true" />
+                <element signature="e#5215#5216#0" expanded="true" />
+                <element signature="e#5271#5272#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Heap/HeapSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -68,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Graphs/GraphNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
+            <state relative-caret-position="663">
               <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -80,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Graphs/UndirectedGraphAdjList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="102">
               <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -102,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/CoreJavaPrograms/StreamTutorialCopy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+              <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -119,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Graphs/TopologicalSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+            <state relative-caret-position="1394">
+              <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -151,8 +153,8 @@
       <find>Database</find>
       <find>noDependencyNodes</find>
       <find>numVertices</find>
-      <find>stack</find>
       <find>syste</find>
+      <find>stack</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/com/Sorting/Main.java" />
         <option value="$PROJECT_DIR$/src/com/Heap/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/com/Heap/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/CodingProblems/demo.java" />
         <option value="$PROJECT_DIR$/src/com/Graphs/UndirectedGraphMatrix.java" />
         <option value="$PROJECT_DIR$/src/com/Graphs/UndirectedGraphNodeRepresentation.java" />
         <option value="$PROJECT_DIR$/src/com/Graphs/UndirectedGraphAdjList.java" />
@@ -176,8 +177,11 @@
         <option value="$PROJECT_DIR$/src/com/Graphs/BasicTopologicalSort.java" />
         <option value="$PROJECT_DIR$/src/com/Graphs/Main.java" />
         <option value="$PROJECT_DIR$/src/com/Graphs/TopologicalSort.java" />
-        <option value="$PROJECT_DIR$/src/com/Graphs/DetectCycleDirectedGraph.java" />
         <option value="$PROJECT_DIR$/src/com/Graphs/DetectCycleUndirectedGraph.java" />
+        <option value="$PROJECT_DIR$/src/com/Graphs/DetectCycleDirectedGraph.java" />
+        <option value="$PROJECT_DIR$/src/com/CodingProblems/demo.java" />
+        <option value="$PROJECT_DIR$/src/com/Search/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/com/Search/BinarySearchVariations.java" />
       </list>
     </option>
   </component>
@@ -192,7 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -266,16 +269,31 @@
             </path>
             <path>
               <item name="PracticePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticePrograms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticePrograms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticePrograms" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1688589448824" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1688759253644" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
@@ -290,7 +308,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DetectCycleUndirectedGraph">
+  <component name="RunManager">
+    <configuration name="BinarySearchVariations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Search.BinarySearchVariations" />
+      <module name="PracticePrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DetectCycleDirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Graphs.DetectCycleDirectedGraph" />
       <module name="PracticePrograms" />
@@ -330,19 +361,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.Main" />
-      <module name="PracticePrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Graphs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.CodingProblems.demo" />
       <module name="PracticePrograms" />
@@ -358,10 +376,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchVariations" />
+        <item itemvalue="Application.demo" />
         <item itemvalue="Application.DetectCycleUndirectedGraph" />
         <item itemvalue="Application.DetectCycleDirectedGraph" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.demo" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -380,10 +398,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="-158" y="-1080" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932885" visible="true" weight="0.2014652" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932885" visible="true" weight="0.1773163" />
       <window_info id="Structure" order="1" sideWeight="0.50067115" side_tool="true" weight="0.17571884" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -396,11 +414,11 @@
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" weight="0.7507599" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="6" sideWeight="0.49946752" weight="0.7507599" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005325" side_tool="true" weight="0.7507599" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32928064" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.3941236" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.6200608" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -609,17 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Sorting/DutchNationalFlag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-          <folding>
-            <element signature="e#1743#1744#0" expanded="true" />
-            <element signature="e#1784#1785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -659,13 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Search/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -725,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CodingProblems/demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Heap/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -746,23 +739,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CoreJavaPrograms/Streams.java">
+    <entry file="file://$PROJECT_DIR$/src/com/CodingProblems/demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+        <state relative-caret-position="442">
+          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/CoreJavaPrograms/StreamTutorialCopy.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Graphs/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+        <state relative-caret-position="544">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Graphs/DetectCycleUndirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Graphs/DetectCycleDirectedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="46" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+          <folding>
+            <element signature="e#5215#5216#0" expanded="true" />
+            <element signature="e#5271#5272#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Graphs/GraphNodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
+        <state relative-caret-position="663">
           <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -772,7 +786,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Graphs/UndirectedGraphAdjList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="102">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -787,40 +801,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/CoreJavaPrograms/StreamTutorialCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/CoreJavaPrograms/Streams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Graphs/TopologicalSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        <state relative-caret-position="1394">
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Graphs/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Sorting/DutchNationalFlag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="515">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Graphs/DetectCycleDirectedGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Search/BinarySearchVariations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="e#5162#5163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Graphs/DetectCycleUndirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+        <state relative-caret-position="1598">
+          <caret line="94" column="45" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
           </folding>
         </state>
       </provider>

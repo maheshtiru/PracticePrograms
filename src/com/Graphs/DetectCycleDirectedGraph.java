@@ -68,6 +68,7 @@ public class DetectCycleDirectedGraph {
     }
 
     // use kahn's algorithm for topological sort. After queue is empty, if there are nodes with indegree != 0, it indicates cycle
+    // in other words, topological search result list will have less size than graph nodes - indicates cycle
     static class BFScycle {
         Graph graph;
         Map<Integer, Integer> indegreeMap;
