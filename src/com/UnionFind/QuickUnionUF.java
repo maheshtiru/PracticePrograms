@@ -6,7 +6,7 @@ package com.UnionFind;
             a)id[i] is parent of ith index
             b) so root of i is id[id[....id[i]]]
         3. p and q are CONNECTED "iff" index p and index q have SAME ROOTS
-        4. UNION method sets the id(val) of P's ROOT TO Q's ROOT
+        4. UNION method sets the id(val) of P's ROOT TO Q's ROOT i.e sets root of Q as parent of P (can be vice-versa..all we need is attaching 2 sets)
 
         Example:
         index  --> 0 1 2 3 4 5 6 7 8 9
@@ -15,14 +15,14 @@ package com.UnionFind;
 
 -> Complexity:
     Initialization : Linear
-    Find: Linear+ (find root)
-    Union: Linear
+    Find: Linear+ (find root) (Less efficient "find" than QuickFind, but overall better because union operation is reduced to linear)
+    Union: Linear (not quadratic like QuickFind. Hence the name Quick Union)
 */
-public class QuickUnion {
+public class QuickUnionUF {
 
     private int[] id;
 
-    QuickUnion(int N){
+    QuickUnionUF(int N){
         id = new int[N];
         for(int i=0; i<N; i++){
             id[i]=i;

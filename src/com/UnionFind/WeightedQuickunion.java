@@ -4,10 +4,10 @@ package com.UnionFind;
 In the previous data structure quick union, the tree height may get very large and finding root may get complex.
 
 -> In weighted Quick Union, we put check on tree height by ATTACHING A SHORT TREE TO A TALL TREE
--> This data structure is same as quiuck union except that an EXTRA ARRAY IS MAINTAINED TO STORE HEIGHT OF THE EACH ROOT
+-> This data structure is same as quick union except that an EXTRA ARRAY IS MAINTAINED TO STORE HEIGHT OF THE EACH ROOT
     i.e, size of root i is stored in SZ[i]
 -> Complexity:
-    Find: Logarithmic (since heigth of the tree it atmost logN)
+    Find: Logarithmic (since height of the tree it atmost logN)
     Union: Logarithmic
 */
 

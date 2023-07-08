@@ -1,11 +1,12 @@
 package com.UnionFind;
 /*
 *Weighted quick union with PATH COMPRESSION
--> This data structure is optimized weighted quich union
+-> This data structure is optimized weighted quick union
 -> WE COMPRESS THE TREE HEIGHT BY POINTING EVERY EXAMINED NODE TO THE MAIN ROOT
--> onlu one line change from WQU
+-> only one line change from WQU
 
-Complexity: Iterative logarithmic
+Complexity: Iterative logarithmic (log(log n) or log^2 n)
+(Note: Iterative generally means log*n == log(log(log(...log(n))), * value is decided based on algorithm. In this algorithm it is 2)
 */
 
 public class WQUPathCompression {
