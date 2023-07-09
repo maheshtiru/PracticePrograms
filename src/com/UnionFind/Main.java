@@ -19,5 +19,8 @@ public class Main {
         QuickUnionUF qu = new QuickUnionUF(9);
         WeightedQuickunion wqu = new WeightedQuickunion(9);
         WQUPathCompression wqupc = new WQUPathCompression(9);
+
+        //example problem
+        UnionFindExampleProblem exampleProblem = new UnionFindExampleProblem();
     }
 }

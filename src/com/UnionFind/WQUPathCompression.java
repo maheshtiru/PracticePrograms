@@ -25,7 +25,10 @@ public class WQUPathCompression {
     private int root(int i){
         //half the path lenght(which is already logarithmic length) by pointing each examined node to its grand parent
         while(i != id[i]){
-            id[i]=id[id[i]];   //ONLY EXTRA LINE from Weighted Quick union
+            //ONLY EXTRA LINE from Weighted Quick union.
+            // This step updates the parents of nodes along the search path closer to root
+            // after enough calls along the same path, all nodes in that path point directly to root
+            id[i]=id[id[i]];
             i=id[i];
         }
         return i;
