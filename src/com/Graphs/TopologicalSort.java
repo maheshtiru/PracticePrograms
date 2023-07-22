@@ -93,8 +93,8 @@ public class TopologicalSort {
         }
     }
 
-    // kahn's algorithm : put all indegree 0 nodes in topological dfsAnswerStack. indegree = no. of incoming connections
-    // process each node. update indegree of neighbors and add any new nodes with indegree == 0 to the queue and repeat
+    // kahn's algorithm : put all indegree 0 nodes in topological bfsQueue. indegree = no. of incoming connections
+    // process each node. update indegree of neighbors and add any new nodes with indegree == 0 to the queue and repeat.
     private List<GraphNodes.Node> bfsHelper() {
         Queue<GraphNodes.Node> q = new LinkedList<>();
         for(GraphNodes.Node gn :  noDependencyNodesList) //add all indegree 0 nodes

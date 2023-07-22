@@ -19,7 +19,7 @@ public class GraphNodes {
     public void addDirectedEdges(Node source, Node... destinations) {
         for(Node destination : destinations)
             source.adjList.add(destination);
-//        destination.adjList.add(source);
+//        destination.adjEdgeList.add(source);
     }
 
     public List<Node> getNeighbors(Node vertex) {
