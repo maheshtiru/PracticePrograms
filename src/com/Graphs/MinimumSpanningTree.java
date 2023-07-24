@@ -3,7 +3,6 @@ package com.Graphs;
 import java.util.*;
 
 import com.Graphs.WeightedUndirectedGraphAdjList.Edge;
-import com.Heap.BinaryHeapMaxPriorityQueue;
 import com.UnionFind.WQUPathCompression;
 
 /*
@@ -147,7 +146,7 @@ public class MinimumSpanningTree {
             }
 
             //sort edges
-            Collections.sort(allEdges, Comparator.comparingInt(e -> e.weight));
+            Collections.sort(allEdges, Comparator.comparing(e -> e.weight));
         }
 
         public void kruskalsMST() {
