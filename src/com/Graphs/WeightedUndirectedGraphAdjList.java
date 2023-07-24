@@ -15,8 +15,8 @@ public class WeightedUndirectedGraphAdjList {
     }
 
     public void addEdge(int source, int dest, int weight) {
-        adjEdgeList.get(source).add(new Edge(weight, dest));
-        adjEdgeList.get(dest).add(new Edge(weight, source));
+        adjEdgeList.get(source).add(new Edge(weight, source, dest));
+        adjEdgeList.get(dest).add(new Edge(weight, dest, source));
     }
 
     // edge contains neighbors
@@ -25,9 +25,15 @@ public class WeightedUndirectedGraphAdjList {
     }
 
     class Edge{
+        int source;
         int weight;
         int destination;
         Edge(int w, int d) {
+            weight = w;
+            destination = d;
+        }
+        Edge(int w, int s, int d) {
+            source = s;
             weight = w;
             destination = d;
         }

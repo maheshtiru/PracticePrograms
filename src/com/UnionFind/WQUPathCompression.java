@@ -12,7 +12,7 @@ Complexity: Iterative logarithmic (log(log n) or log^2 n)
 public class WQUPathCompression {
     private int[] id,sz;
 
-    WQUPathCompression(int N){
+    public WQUPathCompression(int N){
         id = new int[N];
         sz= new int[N];                   // size array
         for(int i=0; i<N; i++){
@@ -22,7 +22,7 @@ public class WQUPathCompression {
     }
 
     //chase parents until you reach root i.e, until parent and object are equal
-    private int root(int i){
+    public int root(int i){
         //half the path lenght(which is already logarithmic length) by pointing each examined node to its grand parent
         while(i != id[i]){
             //ONLY EXTRA LINE from Weighted Quick union.
@@ -35,12 +35,12 @@ public class WQUPathCompression {
     }
 
     //see if roots are equal
-    private boolean connected(int p, int q){
+    public boolean connected(int p, int q){
         return root(p)==root(q);
     }
 
     //assign root of q as parent to root of p
-    private void union(int p, int q){
+    public void union(int p, int q){
         int pRoot = root(p);
         int qRoot =  root(q);
 

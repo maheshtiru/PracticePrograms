@@ -1,6 +1,7 @@
 package com.Graphs;
 
 import java.util.*;
+import com.Graphs.WeightedUndirectedGraphAdjList.Edge;
 
 /* Finds the shortest distances from a source vertex to all other vertices
    Graph built:
@@ -62,8 +63,8 @@ public class DijkstraAlgorithm {
             path.append(String.valueOf(v));
             path.append("-");
 
-            List<WeightedUndirectedGraphAdjList.Edge> adjEdgeList = graph.getEdges(v);
-            for(WeightedUndirectedGraphAdjList.Edge edge : adjEdgeList) {
+            List<Edge> adjEdgeList = graph.getEdges(v);
+            for(Edge edge : adjEdgeList) {
                 int neighbor = edge.destination;
                 int distFromSource = dist[v] + edge.weight;
 

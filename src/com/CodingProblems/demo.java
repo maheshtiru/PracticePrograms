@@ -13,6 +13,7 @@ public class demo {
         map.putIfAbsent("st", new Node("st"));
         map.putIfAbsent("st", new Node("sa"));
         System.out.println(map.get("st").val);
+        PriorityQueue<Node> heap = new PriorityQueue<>(Comparator.comparingDouble(n -> n.aDouble));
     }
 
     public static String base10ToBase62(int n) {
@@ -31,6 +32,7 @@ public class demo {
         Node parent;
         String val;
         int size;
+        double aDouble;
         Node(String str) {
             val = str;
             parent = this;
