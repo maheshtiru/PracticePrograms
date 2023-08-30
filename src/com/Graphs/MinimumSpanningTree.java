@@ -16,6 +16,11 @@ MINIMUM SPANNING TREE:
 - We have 2 GREEDY algos to find MST (prims and kruskals)
 
 Note: A CUT is a group of edges that connected 2 sets of vertices.
+
+
+BASIC IDEA:
+    1. we need minimum of V-1 edges in MST for the graph to be connected.
+    2. We prefer picking edges with least edge weights. If any edge is forming cycle, we omit it.
 */
 public class MinimumSpanningTree {
     public static void main(String[] args) {

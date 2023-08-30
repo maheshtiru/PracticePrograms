@@ -16,9 +16,9 @@ public class FloydWarshall {
     public static void main(String... args) {
         int MAX = Integer.MAX_VALUE;
         int[][] graph = { { 0, 5, MAX, 10 },
-                { MAX, 0, 3, MAX },
-                { MAX, MAX, 0, 1 },
-                { MAX, MAX, MAX, 0 } };
+                        { MAX, 0, 3, MAX },
+                        { MAX, MAX, 0, 1 },
+                        { MAX, MAX, MAX, 0 } };
 
         int[][] dist = allPairShortestPaths(graph);
 
@@ -44,7 +44,7 @@ public class FloydWarshall {
         }
 
         // pick each vertex as intermediate one by one
-        for(int k = 0; k < V; k++) {
+        for(int k = 1; k < V; k++) {
             //pick all vertices as source one by one
             for(int s = 0; s < V; s++) {
                 //pick all vertices as destination for a source

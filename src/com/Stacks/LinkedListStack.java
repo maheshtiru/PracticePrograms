@@ -4,7 +4,6 @@ package com.Stacks;
 -> Datatype used is String
 */
 
-import sun.awt.image.ImageWatched;
 
 public class LinkedListStack {
 

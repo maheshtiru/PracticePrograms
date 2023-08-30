@@ -40,7 +40,12 @@ public class DijkstraAlgorithm {
     // 3. We take a min heap, add source and repeat below steps until heap is empty
     //  -   Update shortest distances of all neighbors. Add all neighbors to heap
     //  -   Pick neighbor with min dist from heap. Repeat. At the end we will have "dist" array filled with min distances from source.
-    //  -   Keep track of shortest path by noting down all polled vertices.
+    //  -   Keep track of shortest path by noting down all parent pointers.
+
+    // TIPS:
+    //  - Remember Dijkstra as BFS but with a heap and dist array instead of Queue.
+    //  - In an unweighted graph, where all weights are same, shortest path is essentially BFS - O(V+E)
+
     // TIME COMPLEXITY is O(E+V)*O(LogV) which is O((E+V)*LogV) = O(ELogV)
     public static void shotestPath(WeightedUndirectedGraphAdjList graph, int source) {
         int[] dist = new int[5];
@@ -60,7 +65,7 @@ public class DijkstraAlgorithm {
             if(visited.contains(v)) continue;
 
             visited.add(v);
-            path.append(String.valueOf(v));
+            path.append(String.valueOf(v)); // should actually use parent pointers
             path.append("-");
 
             List<Edge> adjEdgeList = graph.getEdges(v);

@@ -50,7 +50,7 @@ public class QuickSort<T> {
     //double counter
     private int partition(Comparable<T>[] array, int lo, int hi){
         //we use 'lo' i.e first element as the pivot
-        // we use two counters, can also be done by single counter..traverse entire array, put all less elements to left
+        // we use two counters, can also be done by single counter(just put less elements to left)..traverse entire array, put all less elements to left
         int i=lo, j=hi+1;                                        //using two pointers one from left and one from right
         while(true){                                               // stop when pointers meet(base case)
             while(less(array[++i], array[lo]) )                   //increment left counter until the wrong element is found(>pivot)

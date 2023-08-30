@@ -5,8 +5,6 @@ NOTES:
 2. Note this, for the very first time when low > high in that case ceil(target) = arr[low] and floor(target) = arr[high].
 */
 
-import javafx.util.Pair;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -37,8 +35,8 @@ public class BinarySearchVariations {
         System.out.println("\ntarget's upper bound index: "+upperBoundofTarget(arr,target));
         System.out.println("\nIndex of Greatest element less than target: "+strictLowerBoundofTarget(arr,target));
         System.out.println("\nIndex of Least element greater than target: "+strictUpperBoundofTarget(arr,target));
-        Pair<Integer, Integer> range = rangeOfTarget(arr,target);
-        System.out.println("\ntarget's range indices: "+range.getKey()+","+range.getValue()+" ;\tNote: same as [noComparisionRoundDownMid, noComparisionRoundUpMid]");
+        int[] range = rangeOfTarget(arr,target);
+        System.out.println("\ntarget's range indices: "+range[0]+","+range[1]+" ;\tNote: same as [noComparisionRoundDownMid, noComparisionRoundUpMid]");
     }
 
     //Binary search
@@ -209,7 +207,8 @@ public class BinarySearchVariations {
 
     // returns range [i,j] of target in the array (especially useful when duplicates are present)
     // Note: this range is same as [noComparisionRoundDownMid, noComparisionRoundUpMid]
-    private static Pair<Integer, Integer> rangeOfTarget(int[] arr, int target) {
+    // This is basically <LowerBound, UpperBound>
+    private static int[] rangeOfTarget(int[] arr, int target) {
         int lo = 0, hi = arr.length-1;
 
         int start = -1, end = -1;
@@ -240,6 +239,6 @@ public class BinarySearchVariations {
             }
         }
 
-        return new Pair<>(start, end);
+        return new int[]{start, end};
     }
 }

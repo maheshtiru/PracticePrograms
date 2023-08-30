@@ -2,8 +2,9 @@ package com.Graphs;
 
 import java.util.*;
 
-
 // Note: nodes starting with Indegree 0 have 0 incoming connections/edges i.e, no dependencies
+// Works only on Directed, Acyclic graphs
+// Time Complexity: O(V+E)
 public class TopologicalSort {
     GraphNodes graph;
 

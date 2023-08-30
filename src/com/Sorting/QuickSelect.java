@@ -34,13 +34,13 @@ public class QuickSelect<T> {
         array[j] = swap;
     }
 
-    //this is the divide part of the algorithmS
+    //this is the divide part of the algorithm
     private Comparable<T> quickSelect(Comparable<T>[] array, int lo, int hi, int k) {
         if (lo <= hi) {                                      //base case to stop a recursion routine
             int pi = partition(array, lo, hi);             // get pivot element from partition routine
-            if (k > pi)                                      //recurse on the right side of the array, if k is right ti pivot index
+            if (k > pi)                                      //recurse on the right side of the array, if k is right to pivot index
                 quickSelect(array, pi + 1, hi, k);
-            else if (k < pi)                                 //recurse on the left side of the array, if k is left ti pivot index
+            else if (k < pi)                                 //recurse on the left side of the array, if k is left to pivot index
                 quickSelect(array, lo, pi - 1, k);
             else if (k == pi)
                 return array[k];

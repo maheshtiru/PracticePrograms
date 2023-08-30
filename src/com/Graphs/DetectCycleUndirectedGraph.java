@@ -21,7 +21,7 @@ public class DetectCycleUndirectedGraph {
     }
 
     // if there is back edge i.e if we encounter a neighbor node which is already visited - there is a cicle
-    // Note: because edges are bidirectional, a node will always have a neighbor will always have a visited node in form of its immediate parent - exclude it while checking
+    // Note: because edges are bidirectional, a node will always have a neighbor which is a visited node in form of its immediate parent - exclude it while checking
     static class DetectCycle {
         Graph graph;
         Set<Integer> visited;
