@@ -44,7 +44,7 @@ public class DijkstraAlgorithm {
 
     // TIPS:
     //  - Remember Dijkstra as BFS but with a heap and dist array instead of Queue.
-    //  - In an unweighted graph, where all weights are same, shortest path is essentially BFS - O(V+E)
+    //  - In an unweighted graph, where all weights are same, shortest path to a destination is essentially BFS searching level by level - O(V+E)
 
     // TIME COMPLEXITY is O(E+V)*O(LogV) which is O((E+V)*LogV) = O(ELogV)
     public static void shotestPath(WeightedUndirectedGraphAdjList graph, int source) {

@@ -5,28 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0c003a8-7f3d-4538-ad20-9113b37f71eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/META-INF/PracticePrograms.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/CodingProblems/demo$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/CodingProblems/demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/CodingProblems/demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/FloydWarshall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/FloydWarshall.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/MinimumSpanningTree$KruskalsMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/MinimumSpanningTree$KruskalsMST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/MinimumSpanningTree$PrimsMST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/MinimumSpanningTree$PrimsMST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/MinimumSpanningTree$PrimsMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/MinimumSpanningTree$PrimsMST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/MinimumSpanningTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/MinimumSpanningTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/TopologicalSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/TopologicalSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Search/BinarySearchVariations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Search/BinarySearchVariations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/CodingProblems/demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/CodingProblems/demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Graphs/DetectCycleUndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/DetectCycleUndirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/DijkstraAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/DijkstraAlgorithm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Graphs/DijkstraAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/DijkstraAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Graphs/FloydWarshall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/FloydWarshall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Graphs/MinimumSpanningTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/MinimumSpanningTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Graphs/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/TopologicalSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Search/BinarySearchVariations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Search/BinarySearchVariations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Sorting/QuickSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Sorting/QuickSelect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Stacks/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Stacks/LinkedListStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -398,7 +379,7 @@
       <recent name="$PROJECT_DIR$/src/com/Graphs/Pictures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinimumSpanningTree">
+  <component name="RunManager" selected="Application.DijkstraAlgorithm">
     <configuration name="BinarySearchVariations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Search.BinarySearchVariations" />
       <module name="PracticePrograms" />
@@ -466,9 +447,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DijkstraAlgorithm" />
         <item itemvalue="Application.MinimumSpanningTree" />
         <item itemvalue="Application.FloydWarshall" />
-        <item itemvalue="Application.DijkstraAlgorithm" />
         <item itemvalue="Application.demo" />
         <item itemvalue="Application.BinarySearchVariations" />
       </list>
