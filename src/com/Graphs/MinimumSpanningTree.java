@@ -129,7 +129,7 @@ public class MinimumSpanningTree {
 
 
     /*
-    1. Sort all edges in the graph in ascending order
+    1. Sort all edges in the graph in ascending order of edge weights
     2. Pick each edge one by one. If any edge is forming cycle, skip it. Continue until we pick V-1 edges.
     3. To find if a cycle is formed, use union find. If source and destination of edge are connected, that edge forms cycle
     TIME COMPLEXITY: O(E * logE) or O(E * logV)

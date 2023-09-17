@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0c003a8-7f3d-4538-ad20-9113b37f71eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/AdvancedDataStructures/Pictures/SegmentTreeExample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/AdvancedDataStructures/Pictures/Why_4N_nodes_in_arraySegTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/AdvancedDataStructures/SegmentTree/SegTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/AdvancedDataStructures/SegmentTree/SegmentTreeWithPointUpdates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/AdvancedDataStructures/SegmentTree/TriggerClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/DijkstraAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PracticePrograms/com/Graphs/DijkstraAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Graphs/DijkstraAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/DijkstraAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Graphs/DetectCycleUndirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/DetectCycleUndirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Graphs/MinimumSpanningTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Graphs/MinimumSpanningTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,22 +369,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/Graphs/Pictures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DijkstraAlgorithm">
+  <component name="RunManager" selected="Application.TriggerClass">
     <configuration name="BinarySearchVariations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Search.BinarySearchVariations" />
       <module name="PracticePrograms" />
@@ -393,12 +398,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DijkstraAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.DijkstraAlgorithm" />
+    <configuration name="CircularBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.CodingProblems.CircularBuffer" />
       <module name="PracticePrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Graphs.*" />
+          <option name="PATTERN" value="com.CodingProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -419,12 +424,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumSpanningTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Graphs.MinimumSpanningTree" />
+    <configuration name="TriggerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.AdvancedDataStructures.SegmentTree.TriggerClass" />
       <module name="PracticePrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Graphs.*" />
+          <option name="PATTERN" value="com.AdvancedDataStructures.SegmentTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -432,7 +437,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.CodingProblems.demo" />
       <module name="PracticePrograms" />
       <extension name="coverage">
@@ -447,11 +452,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DijkstraAlgorithm" />
-        <item itemvalue="Application.MinimumSpanningTree" />
+        <item itemvalue="Application.TriggerClass" />
         <item itemvalue="Application.FloydWarshall" />
-        <item itemvalue="Application.demo" />
         <item itemvalue="Application.BinarySearchVariations" />
+        <item itemvalue="Application.demo (1)" />
+        <item itemvalue="Application.CircularBuffer" />
       </list>
     </recent_temporary>
   </component>
